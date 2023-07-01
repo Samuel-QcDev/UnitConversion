@@ -1,5 +1,5 @@
 /* sets the margin of all the element to 10px on all sides*/
-{
+* {
     margin: 10px;
 }
 body{
@@ -14,22 +14,22 @@ background-color: black;
     margin-top:-1cm;
     padding-top: 2cm;
     padding-bottom: 2cm;
-   }
+}
 /* Application name inside the home section. The styling is applied by tag name */
-  header {
+header {
     font-size: 30px;
     color: rgb(240, 234, 245);
     float: left;
     padding-left: 2cm;
-  }
+}
 /* Navigation Bar Container*/
-  .topdiv {
+.topdiv {
     float: right;
     padding-right: 1cm;
-  }
-  
+}
+
 /* Navigation Bar Buttons */
-  .topmenu {
+.topmenu {
     color: lightgray;
     background-color:   #483355;
     margin: 10px;
@@ -37,15 +37,15 @@ background-color: black;
     font-size: 20px;
     text-decoration:none;
     border-radius: 1mm;
-  }
-  
-  .topmenu:hover {
+}
+
+.topmenu:hover {
     color: white;
     font-weight: bolder;
     background-color: #382742;
     text-decoration: underline;
-  }
-  
+}
+
 /* Container for all the three conversion calculator sections   */
 #all-conversion-sections{
     display: grid;
